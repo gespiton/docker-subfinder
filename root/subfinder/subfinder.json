@@ -1,14 +1,11 @@
 {
-   "exts": ["ass", "srt"],
-   "method": ["shooter", "zimuzu", "zimuku","subhd"],
-   "video_exts": [".mp4", ".mkv", ".iso"],
-   "api_urls": {
-     "zimuku": "http://www.zimuku.la/search",
-     "zimuzu": "http://www.rrys2020.com/search",
-     "zimuzu_api_subtitle_download": "/api/v1/static/subtitle/detail",
-     "subhd": "https://subhd.tv/search",
-     "subhd_api_subtitle_download": "/ajax/down_ajax",
-     "subhd_api_subtitle_preview": "/ajax/file_ajax"
-   }
- }
- 
+  "exts": ["ass", "srt"],
+  "method": ["shooter", "zimuku", "subhd"],
+  "video_exts": [".mp4", ".mkv", ".iso"],
+  "api_urls": {
+    "zimuku": "http://www.zimuku.la/search",
+    "subhd": "https://subhd.tv/search",
+    "subhd_api_subtitle_download": "/ajax/down_ajax",
+    "subhd_api_subtitle_preview": "/ajax/file_ajax"
+  }
+}

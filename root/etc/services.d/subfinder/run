@@ -4,6 +4,6 @@
 # 启动subfinder查找字幕
 s6-setuidgid abc \
 	subfinder /media \
-	-c /config/subfinder.json
+	-c /config/subfinder.json --no-order-marker
 echo ==============本轮搜索已结束，下次遍历为${TASK}后==============
 sleep $TASK
