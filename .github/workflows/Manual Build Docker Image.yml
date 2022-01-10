@@ -43,5 +43,5 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            superng6/subfinder:${{ steps.set-version.outputs.version }}
-            superng6/subfinder:latest
+            gespiton/docker-subfinder-no-marker:${{ steps.set-version.outputs.version }}
+            gespiton/docker-subfinder-no-marker:latest
